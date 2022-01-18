@@ -1,0 +1,86 @@
+.forgot-password-container{
+    justify-content: center;
+    align-items: center;
+}
+.form-forgot-password{
+    width: 400px;
+    height: 350px;
+    /* box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2); */
+    background: #fff;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    border-radius: 7px;
+}
+.forgot-password-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.forgot-password-email-label{
+    font-size: 20px;
+    font-weight: 600;
+}
+.forgot-password-form-password{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+.forgot-password-form{
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+.forgot-password-input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #000;
+    padding-left: 10px;
+    font-size: 18px;
+    background: rgb(233, 231, 231);
+}
+.forgot-password-btn{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.forgot-password-btn-submit{
+    padding: 10px 24px;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background: #141414;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.forgot-password-btn-submit:hover{
+    background: rgb(83, 82, 82);
+}
+.close-forgot{
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    z-index: 10;
+    text-shadow: #fff;
+}
+.close-forgot:hover{
+    color: rgb(179, 25, 25);
+    text-shadow: rgb(29, 19, 19);
+}

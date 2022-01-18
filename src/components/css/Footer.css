@@ -1,0 +1,25 @@
+.footer-container{
+    color: aliceblue;
+    background: rgb(53, 52, 52);
+    padding-top: 10px;
+    
+    bottom: 0;
+    width: 100%;
+}
+.footer-container .footer-container-row1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.footer-container-row1-col1{
+    margin: 20px 20px;
+}
+.footer-container-row1-col1 .footer-container-col1-label{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.footer-container-col1-list{
+    list-style: none;
+    margin-bottom: 10px;
+}

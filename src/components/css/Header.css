@@ -1,0 +1,209 @@
+header .header-menu{
+    min-width: 35px;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(53, 52, 52);
+    
+}
+header .header-menu nav{
+    display: flex;
+    height: 100%;
+    
+    padding: 0px 50px 0px 0px;
+}
+header .header-menu nav ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+header .header-menu nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    padding: 0 5px;
+}
+header .header-menu nav ul li a:hover{
+    color: rgb(219, 90, 68);
+}
+header .header-menu nav .icon-cart{
+    cursor: pointer;
+    position: relative;
+}
+header .header-menu nav .icon-cart span{
+    position: absolute;
+    color: rgb(230, 111, 14);
+    top: -5px;
+    right: -5px;
+    padding: 0px -5px;
+}
+
+/*----------------------------------*/
+header .navbar-center{
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+/* ---------------logo--------------------- */
+header .navbar-center .navbar-header-logo{
+    display: flex;
+    margin-left: 50px;
+}
+/* --------------end-------------------- */
+/* ---------------category--------------- */
+header .nav-navbar {
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+header .product-category{
+    width: 180;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: initial;
+    border-left: 1px dotted rgb(99, 93, 93);
+    border-right: 1px dotted rgb(99, 93, 93);
+}
+header .product-category a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    margin: 0px 5px 0px 5px;
+}
+header .product-category a:hover{
+    color: rgb(92, 90, 90);
+}
+header .subs-cate-adidas{
+    display: none;
+    position: absolute;
+    margin-top: 6px;
+    width: 50%;
+}
+header .product-category:hover .subs-cate-adidas{
+    display: block;
+    position: absolute;
+    margin-left: -50px;
+    
+    background: rgb(248, 244, 244);
+}
+header .product-category:hover .row-category-adidas{
+    display: block;
+    margin: 10px;
+    list-style: none;
+    
+}
+header .product-category:hover .row-category-adidas .chil-row-adidas{
+    width: 100%;
+    padding: 5px;
+    /* border-bottom: 1px dotted rgb(26, 25, 25); */
+}
+header .product-category:hover .row-category-adidas .chil-row-adidas a{
+    color: rgb(75, 70, 70);
+    text-shadow: 1px 1px 1px rgb(180, 174, 174);
+}
+header .product-category:hover .row-category-adidas .chil-row-adidas a:hover{
+    color: rgb(8, 8, 8);
+    text-shadow: 1px 1px 1px rgb(174, 177, 39);
+}
+/* header .collapse-navbar-collapse nav ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: initial;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+header .collapse-navbar-collapse nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(22, 21, 21);
+    padding: 0 5px;
+} */
+/* -----------search------------ */
+.button-search{
+    width: 350px;
+    margin: 0px 25px 0px 0px;
+}
+/* .button-search .btn-search{
+    
+    font-size: 17px;
+    color: #333;
+    background-color: transparent;
+} */
+/* ------------search autocomplete--------- */
+.button-search-container,
+#btn-header-search.btn-search,
+.search-autocomplete{
+    width: 350px;
+    height: 40px;
+    line-height: 40px;
+    font: 14px Tahoma, Verdana, Arial, sans-serif;
+}
+.button-search-container{
+    position: relative;
+}
+.btn-search,
+.search-autocomplete{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 8px;
+  border: 2px solid rgb(100, 98, 98);
+  cursor: text;
+}
+.btn-search:focus,
+.search-autocomplete:focus{
+  outline: none;
+  border-color: #aaa;
+}
+.btn-search {
+  color: rgb(12, 12, 12);
+  background-color: transparent;
+}
+.search-autocomplete {
+  color: #999;
+}
+/* -------------end-------------- */
+/* -------------end-------------- */
+
+/* -------------new context------------- */
+.title-new-context{
+    height: 45px;
+    display: flex;
+    background-color: #f1f1f1;
+    align-content: center;
+    justify-content: center;
+}
+.header-container .title-new-context-container{
+    min-width: 600px;
+    max-width: 650px;
+    max-height: 35px;
+}
+.header-container .title-new-context-container .slider-notify{
+
+    align-content: center;
+    justify-content: center;
+}
+.header-container .title-new-context-container .slider-notify-item{
+    font-size: 20px;
+    
+}
+
+/*                  slider                 */
+.slick-dots li{ 
+    font-size: 0;
+    visibility: hidden;
+ }
+/* -------------end--------------------- */

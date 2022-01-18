@@ -1,0 +1,99 @@
+.category-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.category-products{
+    width: 100%;
+    display: flex;
+    max-width: 1360px;
+    justify-content: space-around;
+    border-left: 2px solid rgb(78, 73, 73);
+    border-right: 1px solid rgb(78, 73, 73);
+    flex-wrap: wrap;
+}
+.category-products-cart{
+    min-width: 280px;
+    min-height: 350px;
+    width: 320px;
+    border: 1px solid rgb(201, 198, 198);
+    padding: 10px;
+    box-shadow: none;
+    transition: 0.5s linear;
+    margin-bottom: 4px;
+}
+.category-products-cart:hover{
+    box-shadow: 2px 4px 8px rgb(167, 164, 164);
+}
+.category-products-cart-img{
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+    
+    object-fit: cover;
+}
+.category-products-content-name{
+    display: block;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.category-products-content-name a{
+    text-decoration: none;
+    color: rgb(58, 51, 51);
+}
+.category-products-content-price{
+    font-size: 20px;
+}
+.category-products-content-name a:hover{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgb(211, 204, 204);
+}
+/* -------------------Gio hang------------------- */
+.category-yourcart{
+    position: fixed;
+    right: 0px;
+    top: 250px;
+    width: 40px;
+    height: 75px;
+    margin-right: 5px;
+    background: rgb(189, 180, 180);
+    text-align: center;
+    border: 1px solid rgb(109, 107, 107);
+}
+.category-yourcart-count{
+    color:rgb(12, 11, 11);
+    text-shadow: 2px 2px 2px rgb(241, 232, 232);
+    font-size: 20px;
+    align-content: center;
+}
+/*              scroll to top            */
+
+/* ---------------bootstrap---------------------- */
+/* .category-products{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background: #f6f6f6;
+}
+
+.cart-product{
+    display: flex;
+    border: 1px solid rgb(243, 238, 238);
+}
+.img-product{
+    width: 300px;
+
+}
+.content a{
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+
+}
+.content span{
+    font-size: 20px;
+} */
+

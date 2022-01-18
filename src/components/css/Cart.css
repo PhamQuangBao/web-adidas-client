@@ -1,0 +1,138 @@
+.cart-product{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+/* .listcartproduct{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+} */
+.cart-product-col{
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+/*----------product----------*/
+.col-product{
+    width: 100%;
+    
+    /* border: 1px solid rgb(78, 73, 73); */
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card-detail-product{
+    display: flex;
+    max-height: 250px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid rgb(143, 141, 141);
+    /* padding: 10px; */
+    margin-bottom: 5px;
+}
+.card-detail-product-img{
+    max-width: 300px;
+    min-width: 300px;
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+/* ---------------------Thong tin----------------------- */
+ .card-detail-product .card-detail-product-box{
+    margin-top: 30px;
+    max-width: 600px;
+    padding: 10px;
+    
+}
+.card-detail-product-box .row{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 1px 5px 1px;
+}
+.card-detail-product-box .row .card-row-price{
+    font-weight: 500;
+    font-size: 22px;
+}
+.card-detail-product-box .row-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 0px 50px;
+}
+.card-detail-product-box .row-1 p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.card-detail-product-delete{
+    top: 0;
+    color: black;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 18px;
+    margin: 15px 20px 0px 5px;
+}
+/*------------------------------*/
+.cart-product-col .cart-product-col-total{
+    width: 380px;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid rgb(214, 213, 213);
+    margin-left: 12px;
+    background: rgb(214, 213, 213);
+}
+.cart-product-discount{
+    width: 100%;
+    height: 40px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #979292;
+    color: #888;
+}
+.cart-product-col-total .cart-total-row-1{
+    font-weight: 500;
+    font-size: 25px;
+    border-bottom: 3px solid rgb(27, 27, 27);
+    margin-bottom: 20px;
+}
+.cart-product-col-total .cart-total-row-2{
+    margin-bottom: 10px;
+    border-bottom: 1px dashed rgb(51, 50, 50);
+}
+.cart-product-col-total .cart-total-row-3{
+    margin-bottom: 10px;
+    border-bottom: 1px dashed rgb(51, 50, 50);
+}
+.cart-product-col-total .cart-total-row-3 .cart-total-chil-row-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 1px 10px 1px;
+}
+.cart-product-col-total .cart-total-row-3 .cart-total-chil-row-3 h3{
+    color: rgb(104, 106, 107);
+}
+.cart-product-col-total .cart-total-row-4{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 1px 5px 1px;
+}
+.cart-product-col-total .btn-primary{
+    background: #333;
+    color: white;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.cart-product-col-total .btn-primary:hover{
+    cursor: pointer;
+    background: #494949;
+}
+

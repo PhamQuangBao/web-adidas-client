@@ -1,0 +1,118 @@
+.payment{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background: #f6f6f6;
+    padding: 25px;
+}
+.payment .orderForm {
+    margin: 35px 20px 20px 20px;
+}
+.payment .orderForm h2{
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+.payment .orderForm .row-radio-tt{
+    padding: 15px 0; 
+}
+.form-control{
+    /* input[type = "text"] */
+    width: 100%;
+    height: 40px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #979292;
+    color: #888;
+}
+/* ---------------Adress---------------- */
+.form-control .address-container-chil{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.form-control-chil-1{
+    width: 46%;
+    height: 40px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #979292;
+    color: #888;
+}
+.form-control-chil-2{
+    width: 46%;
+    height: 40px;
+    padding: 5px 10px;
+    margin-left: 55px;
+    margin-bottom: 20px;
+    border: 1px solid #979292;
+    color: #888;
+}
+/* -----------------------------------  */
+.your-order{
+    margin-top: 15px;
+    width: 480px;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #dadada;
+    background: #dadada;
+}
+.your-order .row{
+    margin: 0;
+    padding: 0;
+}
+.payment .your-order .row .row-1{
+    display: flex;
+    justify-content: space-between;
+    background: #dadada;
+}
+.payment .your-order .row .row-2{
+    display: flex;
+    width: 420px;
+    background: #dadada;
+    flex-wrap: wrap;
+    padding: 5px 25px 10px 25px;
+    justify-content: space-between;
+    
+}
+.payment .your-order .row-3{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #645e5e;
+    padding: 5px 0px 5px 0px;
+    
+}
+.payment .your-order .row-4{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px 25px 0px;
+    
+}
+.payment .your-order .row-5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #645e5e;
+    padding: 0px 0px 10px 0px;
+}
+.payment .your-order .btn-btn-primary{
+    border: none;
+    outline: none;
+    background: #333;
+    color: white;
+    width: 100%;
+    height: 70px;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin: 15px 0;
+}
+.payment .your-order .btn-btn-primary:hover{
+    cursor: pointer;
+    background: #494949;
+}

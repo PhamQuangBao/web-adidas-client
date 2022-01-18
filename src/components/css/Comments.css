@@ -1,0 +1,18 @@
+.user-commentfor-products-comments{
+    margin: 0;
+}
+.user-commentfor-products-row{
+
+    flex-direction: row;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    background: #f6f6f6;
+}
+.user-commentfor-products-row-1{
+    display: flex;
+   
+}
+.user-commentfor-products-col-time{
+    margin-left: 10px;
+
+}
